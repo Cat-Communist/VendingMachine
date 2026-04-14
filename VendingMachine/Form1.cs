@@ -85,15 +85,15 @@ namespace VendingMachine
             {
                 if (obj is Planet)
                 {
-                    listView.Items.Add("", (int)ObjectTypes.planet);
+                    listView.Items.Add("Планета", (int)ObjectTypes.planet);
                 }
                 else if (obj is Star)
                 {
-                    listView.Items.Add("", (int)ObjectTypes.star);
+                    listView.Items.Add("Звезда", (int)ObjectTypes.star);
                 }
                 else if (obj is Comet)
                 {
-                    listView.Items.Add("", (int)ObjectTypes.comet);
+                    listView.Items.Add("Комета", (int)ObjectTypes.comet);
                 }
             }
         }
