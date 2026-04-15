@@ -3,7 +3,7 @@ namespace VendingMachine
     public partial class Form1 : Form
     {
 
-        List<SpaceObjects> objectsList = new List<SpaceObjects>();
+        List<SpaceObject> objectsList = new List<SpaceObject>();
         public Form1()
         {
             InitializeComponent();
